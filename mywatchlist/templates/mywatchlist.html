@@ -1,0 +1,62 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+    body {
+        font-family: "Open Sans", sans-serif;
+        width: 720px;
+        margin: 0 auto;
+        font-weight: 500;
+    }
+
+    h1.title {
+        text-align: center;
+        color: brown;
+    }
+
+    p {
+        font-weight: 400;
+    }
+
+    .identity {
+        border-bottom: 1px #000 dotted;
+    }
+
+</style>
+{% extends 'base.html' %}
+
+ {% block content %}
+
+  <h1 class="title">Assignment 3 - Platform-based Programming</h1>
+    <div class="identity">
+        <h5>Name: </h5>
+        <p>Afiq Ilyasa Akmal</p>
+        <h5>Student ID: </h5>
+        <p>2106751291</p>
+    </div>
+
+     </br>
+
+
+  <table>
+    <tr>
+      <th><p>Watched</p></th>
+      <th><p>Title</p></th>
+      <th><p>Rating</p></th>
+      <th><p>Release date</p></th>
+      <th><p>Review</p></th>
+    </tr>
+    {% comment %} Add the data below this line {% endcomment %}
+    {% for film in list_film %}
+      <tr>
+          <th><p>{{film.film_watched}}</p></th>
+          <th><p>{{film.film_title}}</p></th>
+          <th><p>{{film.film_rating}}</p></th>
+          <th><p>{{film.film_release_date}}</p></th>
+          <th><p>{{film.film_review}}</p></th>
+      </tr>
+    {% endfor %}
+  </table>
+
+     <h2>Pesan: </h2>
+  <p>{{pesan}}</p>
+
+ {% endblock content %}

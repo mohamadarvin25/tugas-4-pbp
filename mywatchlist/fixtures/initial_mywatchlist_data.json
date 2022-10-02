@@ -1,0 +1,112 @@
+[
+    {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 1,
+        "fields": {
+            "film_watched": true,
+            "film_title": "Air Terjun Pengantin",
+            "film_rating": 4,
+            "film_release_date": "3 Desember 2009",
+            "film_review": "Keren banget, film horror Indonesia yang pertama kali kutonton. Tapi tayang di ANTV dini hari terus"
+        }
+    },
+    {
+       "model": "mywatchlist.wishlistfilmku",
+        "pk": 2,
+        "fields": {
+          "film_watched": true,
+            "film_title": "Laskar Pelangi",
+            "film_rating": 5,
+            "film_release_date": "25 September 2008",
+            "film_review": "Film pertamaku yang kutonton di bioskop. Sungguh mengharukan filmnya :("
+        }
+    },
+    {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 3,
+        "fields": {
+         "film_watched": false,
+            "film_title": "Fast and Furious 9",
+            "film_rating": 2,
+            "film_release_date": "16 Juni 2021",
+            "film_review": "Ah ga seru makin lama Fast and Furious makin gajelas jalan ceritanya, udah di end-in aja"
+        }
+    },
+    {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 4,
+        "fields": {
+          "film_watched": true,
+            "film_title": "Shingeki No Kyojin",
+            "film_rating": 5,
+            "film_release_date": "7 April 2013",
+            "film_review": "Meskipun aku bukan wibu tapi anime ini bagus banget jalan ceritanya, character developmentnya juga mantap"
+        }
+    },
+    {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 5,
+        "fields": {
+        "film_watched": false,
+            "film_title": "2012",
+            "film_rating": 4,
+            "film_release_date": "13 November 2009",
+            "film_review": "Film kiamat yang pada masanya bikin banyak orang takut mati pas kiamat"
+        }
+    },
+   {
+       "model": "mywatchlist.wishlistfilmku",
+        "pk": 6,
+        "fields": {
+        "film_watched": true,
+            "film_title": "The Day After Tomorrow",
+            "film_rating": 5,
+            "film_release_date": "26 Mei 2004",
+            "film_review": "Film genre disaster pertama yang membuat saya takjub"
+        }
+    },
+   {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 7,
+        "fields": {
+        "film_watched": true,
+            "film_title": "Rambo: First Blood",
+            "film_rating": 4,
+            "film_release_date": "22 Oktober 1982",
+            "film_review": "Filmnya keren tapi terlalu maksa karena masa iya 1 orang bisa lawan banyak tentara"
+        }
+    },
+   {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 8,
+        "fields": {
+        "film_watched": true,
+            "film_title": "Upin Ipin - Geng: Pengembaraan Bermula\n ",
+            "film_rating": 5,
+            "film_release_date": "12 Februari 2009",
+            "film_review": "Film ini pas saya masih kecil seru banget, diomongin satu tongkrongan"
+        }
+    },
+   {
+       "model": "mywatchlist.wishlistfilmku",
+        "pk": 9,
+        "fields": {
+        "film_watched": false,
+            "film_title": "KKN Desa Penari",
+            "film_rating": 4,
+            "film_release_date": "30 April 2022",
+            "film_review": "Kalo liat trailernya sih mantep, kata temen2 yang dah nonton juga oke"
+        }
+    },
+   {
+        "model": "mywatchlist.wishlistfilmku",
+        "pk": 10,
+        "fields": {
+        "film_watched": true,
+            "film_title": "The World Is Not Enough\n",
+            "film_rating": 5,
+            "film_release_date": "8 November 1999",
+            "film_review": "Menurut gua ini film James Bond paling kece parah!"
+        }
+    }
+]
